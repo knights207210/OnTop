@@ -1,0 +1,172 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Medlineplus Tutorial Practice without Hints",
+  "version": "0.1.0",
+  "description": "add audio for medlineplus tutorial",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://ontop.nickelled.com/mmedlineplus-guide?ngroup=link"]
+  },
+  {
+    "js": ["homepageinfo.js"],
+    "matches": ["https://ontop.nickelled.com/homepageinfo?ngroup=link"]
+  },
+  {
+    "js": ["practicetoclick.js"],
+    "matches": ["https://ontop.nickelled.com/practicetoclickonhealthtopics?ngroup=link"]
+  },
+  {
+    "js": ["practicetosearch.js"],
+    "matches": ["https://ontop.nickelled.com/practicetosearchbox?ngroup=link"]
+  },
+  {
+    "js": ["healthtopicsinfo.js"],
+    "matches": ["https://ontop.nickelled.com/healthtopicsinfo?ngroup=link"]
+  },
+  {
+    "js": ["practicetofinddiabetes.js"],
+    "matches": ["https://ontop.nickelled.com/practicetofindidiabetes?ngroup=link"]
+  },
+  {
+    "js": ["content1.js"],
+    "matches": ["https://ontop.nickelled.com/healthtopics-1?ngroup=link"]
+  },
+  {
+    "js": ["content2.js"],
+    "matches": ["https://ontop.nickelled.com/healthtopics-1?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_letterd.js"],
+    "css": ["styles_letterd.css"],
+    "matches": ["https://ontop.nickelled.com/diabetes?ngroup=link"]
+  },
+  {
+    "js": ["content_diabetes.js"],
+    "css": ["styles_diabetes.css"],
+    "matches": ["https://ontop.nickelled.com/healthtopicdiabetes?ngroup=link"]
+  },
+  {
+    "js": ["content_medlineplus.js"],
+    "css": ["styles_medlineplus.css"],
+    "matches": ["https://medlineplus.gov/"]
+  },
+  {
+    "js": ["content_healthtopics.js"],
+    "css": ["styles_healthtopics.css"],
+    "matches": ["https://medlineplus.gov/healthtopics.html"]
+  },
+
+  {
+    "js": ["content_healthtopicsd.js"],
+    "matches": ["https://medlineplus.gov/healthtopics_d.html"]
+  },
+  {
+    "js": ["content_meddiabetes.js"],
+    "matches": ["https://medlineplus.gov/diabetes.html"]
+  },
+  {
+    "js": ["content_searchdia.js"],
+    "matches": ["https://vsearch.nlm.nih.gov/*"]
+  },
+
+  {
+    "js": ["content_allhealthtopics.js"],
+    "css": ["styles_allhealthtopics.css"],
+    "matches": ["https://medlineplus.gov/all_healthtopics.html"]
+  },
+
+  {
+    "js": ["druginfo.js"],
+    "matches": ["https://ontop.nickelled.com/druginfo?ngroup=link"]
+  },
+  
+  {
+    "js": ["findaspirin.js"],
+    "matches": ["https://ontop.nickelled.com/finddrugs?ngroup=link"]
+  },
+
+  {
+    "js": ["findaspirin2.js"],
+    "matches": ["https://ontop.nickelled.com/finddrugs?npage=2&ngroup=link"]
+  },
+
+  {
+    "js": ["findaspirin3.js"],
+    "matches": ["https://ontop.nickelled.com/finddrugs?npage=3&ngroup=link"]
+  },
+
+  {
+    "js": ["aspirinpage.js"],
+    "matches": ["https://ontop.nickelled.com/aspirin?ngroup=link"]
+  },
+
+  {
+    "js": ["practicetofindaspirin.js"],
+    "matches": ["https://ontop.nickelled.com/practicetofindaspirin?ngroup=link"]
+  },
+
+  {
+    "js": ["content_aspirin1.js"],
+    "matches": ["https://medlineplus.gov/druginformation.html"]
+  },
+
+  {
+    "js": ["content_aspirin2.js"],
+    "matches": ["https://medlineplus.gov/druginfo/drug_Aa.html"]
+  },
+
+  {
+    "js": ["content_aspirin3.js"],
+    "matches": ["https://medlineplus.gov/druginfo/meds/a682878.html"]
+  },
+
+  {
+    "js": ["supplementinfo.js"],
+    "matches": ["https://ontop.nickelled.com/supplementinfo?ngroup=link"]
+  },
+
+  {
+    "js": ["supplementinfo2.js"],
+    "matches": ["https://ontop.nickelled.com/supplementinfo?npage=2&ngroup=link"]
+  },
+
+  {
+    "js": ["findginkgo.js"],
+    "matches": ["https://ontop.nickelled.com/findsupplement?ngroup=link"]
+  },
+
+  {
+    "js": ["findginkgo2.js"],
+    "matches": ["https://ontop.nickelled.com/findsupplement?npage=2&ngroup=link"]
+  },
+
+  {
+    "js": ["findginkgo3.js"],
+    "matches": ["https://ontop.nickelled.com/findsupplement?npage=3&ngroup=link"]
+  },
+
+  {
+    "js": ["ginkgopage.js"],
+    "matches": ["https://ontop.nickelled.com/ginkgo?ngroup=link"]
+  },
+
+  {
+    "js": ["practicetofindginkgo.js"],
+    "matches": ["https://ontop.nickelled.com/practicetofindginkgo?ngroup=link"]
+  },
+
+  {
+    "js": ["content_ginkgo.js"],
+    "matches": ["https://medlineplus.gov/druginfo/herb_All.html"]
+  },
+
+  {
+    "js": ["content_ginkgo2.js"],
+    "matches": ["https://nccih.nih.gov/health/ginkgo/ataglance.htm"]
+  }
+
+]
+ 
+}
