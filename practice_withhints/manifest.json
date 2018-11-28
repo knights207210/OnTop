@@ -68,7 +68,27 @@
   },
   {
     "js": ["content_searchdia.js"],
-    "matches": ["https://vsearch.nlm.nih.gov/*"]
+    "matches": ["https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=diabetes&*"]
+  },
+  {
+    "js": ["content_searchasp.js"],
+    "matches": ["https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=aspirin&*"]
+  },
+  {
+    "js": ["content_searchgin.js"],
+    "matches": ["https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=ginkgo&*"]
+  },
+  {
+    "js": ["content_searchdia.js"],
+    "matches": ["https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=diabetes"]
+  },
+  {
+    "js": ["content_searchasp.js"],
+    "matches": ["https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=aspirin"]
+  },
+  {
+    "js": ["content_searchgin.js"],
+    "matches": ["https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=ginkgo"]
   },
 
   {
