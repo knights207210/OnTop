@@ -10,6 +10,14 @@
     "matches": ["https://ontop.nickelled.com/mmedlineplus-guide?ngroup=link"]
   },
   {
+    "js": ["content_pointinghand.js"],
+    "matches": ["https://ontop.nickelled.com/mmedlineplus-guide?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["startpage.js"],
+    "matches": ["https://ontop.nickelled.com/startpage?ngroup=link"]
+  },
+  {
     "js": ["homepageinfo.js"],
     "matches": ["https://ontop.nickelled.com/homepageinfo?ngroup=link"]
   },
@@ -51,6 +59,11 @@
     "js": ["content_medlineplus.js"],
     "css": ["styles_medlineplus.css"],
     "matches": ["https://medlineplus.gov/"]
+  },
+  {
+    "js": ["content_medlineplus.js"],
+    "css": ["styles_medlineplus.css"],
+    "matches": ["https://medlineplus.gov/*"]
   },
   {
     "js": ["content_healthtopics.js"],
