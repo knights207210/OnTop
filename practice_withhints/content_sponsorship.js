@@ -1,19 +1,27 @@
-var open = new Audio('http://home.ustc.edu.cn/~wyc0807/diabetess.mp3');
-var audio1 = new Audio('http://home.ustc.edu.cn/~wyc0807/You are now on the page where health topics start with letter D.mp3');
-var audio2 = new Audio('http://home.ustc.edu.cn/~wyc0807/third.mp3');
-var audio3 = new Audio('http://home.ustc.edu.cn/~wyc0807/clickit.mp3');
+//var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/test1.mp3');
+//audio.autoplay = true;
+//audio.load();
+//audio.play()
 
+//var btn =document.getElementById("111889") ; btn.style.border="1px solid #FF9933" ; 
+//h3.nickelled__slide__title nickelled__component__title
 
-
+//var title = window.guideJSON.getElementById("111889").title;
+//alert(title);
+//if(title == "Medline Plus Tutorial"){
+	//var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/test1.mp3');
+    //audio.autoplay = true;
+    //audio.load();
+//}
+var open = new Audio('http://home.ustc.edu.cn/~wyc0807/sp1.mp3');
+var audio1 = new Audio('http://home.ustc.edu.cn/~wyc0807/sp2.mp3');
+var audio2 = new Audio('http://home.ustc.edu.cn/~wyc0807/icon.mp3')
+var audio3 = new Audio('http://home.ustc.edu.cn/~wyc0807/secondmainfeature.mp3');
 window.onload = function(){
-var open = new Audio('http://home.ustc.edu.cn/~wyc0807/diabetess.mp3');
+//var open = new Audio('http://home.ustc.edu.cn/~wyc0807/main feature.mp3');
   //open.autoplay = true;
-  //open.load();
-  //open.play();
-  audio1.load();
-  audio1.play();
-  document.getElementsByTagName("h1")[0].style.border = "5px solid red";
-  document.getElementById("anch_80").style.border = "5px solid red";
+  open.load();
+  open.play();
 var a_termreview=document.createElement("a");
 a_termreview.href="https://ontop.nickelled.com/mmedlineplus-guide?ngroup=link";
 a_termreview.innerText=" \b Intro: \n Basic Computer Terms \b";
@@ -44,10 +52,10 @@ a_goal1.style.position = "absolute";
 a_goal1.style.top = '82px';
 a_goal1.style.left = '1px';
 //a_goal1.style.color = "black";
-//a_goal1.style.backgroundColor = "yellow";
+a_goal1.style.backgroundColor = "yellow";
 a_goal1.style.color = "purple";
 a_goal1.style.width = '230px';
-//a_goal1.style.display = "none"
+a_goal1.style.display = "none"
 
 var a_goal2=document.createElement("a");
 a_goal2.href="https://ontop.nickelled.com/healthtopics-1?ngroup=link";
@@ -62,10 +70,10 @@ a_goal2.style.position = "absolute";
 a_goal2.style.top = '114px';
 a_goal2.style.left = '1px';
 //a_goal2.style.color = "black";
-a_goal2.style.backgroundColor = "yellow";
+//a_goal2.style.backgroundColor = "white";
 a_goal2.style.color = "purple";
 a_goal2.style.width = '230px';
-//a_goal2.style.display = "none"
+a_goal2.style.display = "none"
 
 var a_goal3=document.createElement("a");
 a_goal3.href="https://ontop.nickelled.com/healthtopicsinfo?ngroup=link";
@@ -83,7 +91,7 @@ a_goal3.style.left = '1px';
 //a_goal3.style.backgroundColor = "white";
 a_goal3.style.color = "purple";
 a_goal3.style.width = '230px';
-//a_goal3.style.display = "none"
+a_goal3.style.display = "none"
 
 var a_goal4=document.createElement("a");
 a_goal4.innerText="\b GOAL 4: Practice using\n Search Box \b ";
@@ -98,7 +106,7 @@ a_goal4.style.top = '208px';
 a_goal4.style.left = '1px';
 a_goal4.style.color = "purple";
 a_goal4.style.width = '230px';
-//a_goal4.style.display = "none"
+a_goal4.style.display = "none"
 
 a_goal4.addEventListener("click", function(){
   document.getElementById("anch_13").style.border = "5px solid white";
@@ -140,7 +148,7 @@ a_goal5.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 a_goal5.style.color = "purple";
 a_goal5.style.width = '230px';
-//a_goal5.style.display = "none"
+a_goal5.style.display = "none"
 
 var a_goal6=document.createElement("a");
 a_goal6.href="https://ontop.nickelled.com/healthy-recipes?ngroup=link";
@@ -158,7 +166,7 @@ a_goal6.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 a_goal6.style.color = "purple";
 a_goal6.style.width = '230px';
-//a_goal6.style.display = "none"
+a_goal6.style.display = "none"
 
 var a_goal7=document.createElement("a");
 a_goal7.href="https://ontop.nickelled.com/healthy-providers?ngroup=link";
@@ -176,7 +184,7 @@ a_goal7.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 a_goal7.style.color = "purple";
 a_goal7.style.width = '230px';
-//a_goal7.style.display = "none"
+a_goal7.style.display = "none"
 
 var a_goal8=document.createElement("a");
 a_goal8.href="https://ontop.nickelled.com/videos-and-tools?ngroup=link";
@@ -194,14 +202,14 @@ a_goal8.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 a_goal8.style.color = "purple";
 a_goal8.style.width = '230px';
-//a_goal8.style.display = "none"
+a_goal8.style.display = "none"
 
 var b_dropdown = document.createElement("BUTTON");
 b_dropdown.innerText="click me to collapse";
 //a_backtohome.innerText.style.border = '5px solid red';
 document.body.appendChild(b_dropdown);
 b_dropdown.style.position = "absolute";
-b_dropdown.style.top = '528px';
+b_dropdown.style.top = '90px';
 b_dropdown.style.left = '30px';
 //a_goal4.style.color = "black";
 //a_goal4.style.backgroundColor = "white";
@@ -215,7 +223,7 @@ a_evaluate.style.border = '2px solid grey';
 a_evaluate.style.fontSize = '19px';
 a_evaluate.style.fontWeight = "bold";
 a_evaluate.style.position = "absolute";
-a_evaluate.style.top = '598px';
+a_evaluate.style.top = '180px';
 a_evaluate.style.left = '1px';
 ///a_evaluate.style.color = "black";
 //a_evaluate.style.backgroundColor = "yellow";
@@ -236,10 +244,10 @@ e_goal1.style.position = "absolute";
 e_goal1.style.top = '212px';
 e_goal1.style.left = '1px';
 //e_goal1.style.color = "black";
-//e_goal1.style.backgroundColor = "yellow";
+e_goal1.style.backgroundColor = "yellow";
 e_goal1.style.color = "purple";
 e_goal1.style.width = '230px';
-e_goal1.style.display = "none"
+//e_goal1.style.display = "none"
 
 var e_goal2=document.createElement("a");
 e_goal2.href="https://ontop.nickelled.com/purpose?ngroup=link";
@@ -257,7 +265,7 @@ e_goal2.style.left = '1px';
 //e_goal2.style.backgroundColor = "white";
 e_goal2.style.color = "purple";
 e_goal2.style.width = '230px';
-e_goal2.style.display = "none"
+//e_goal2.style.display = "none"
 
 var e_goal3=document.createElement("a");
 e_goal3.href="https://ontop.nickelled.com/reviewers?ngroup=link";
@@ -275,7 +283,7 @@ e_goal3.style.left = '1px';
 //e_goal3.style.backgroundColor = "white";
 e_goal3.style.color = "purple";
 e_goal3.style.width = '230px';
-e_goal3.style.display = "none"
+//e_goal3.style.display = "none"
 
 var e_goal4=document.createElement("a");
 e_goal4.href="https://ontop.nickelled.com/authorship?ngroup=link";
@@ -291,7 +299,7 @@ e_goal4.style.top = '308px';
 e_goal4.style.left = '1px';
 e_goal4.style.color = "purple";
 e_goal4.style.width = '230px';
-e_goal4.style.display = "none"
+//e_goal4.style.display = "none"
 
 
 var e_goal5=document.createElement("a");
@@ -310,7 +318,7 @@ e_goal5.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 e_goal5.style.color = "purple";
 e_goal5.style.width = '230px';
-e_goal5.style.display = "none"
+//e_goal5.style.display = "none"
 
 var e_goal6=document.createElement("a");
 e_goal6.href="https://ontop.nickelled.com/accuracy?ngroup=link";
@@ -328,7 +336,7 @@ e_goal6.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 e_goal6.style.color = "purple";
 e_goal6.style.width = '230px';
-e_goal6.style.display = "none"
+//e_goal6.style.display = "none"
 
 var e_goal7=document.createElement("a");
 e_goal7.href="https://ontop.nickelled.com/privacy-policy?ngroup=link";
@@ -346,7 +354,7 @@ e_goal7.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 e_goal7.style.color = "purple";
 e_goal7.style.width = '230px';
-e_goal7.style.display = "none"
+//e_goal7.style.display = "none"
 
 var e_goal8=document.createElement("a");
 e_goal8.href="https://ontop.nickelled.com/contact-information?ngroup=link";
@@ -364,14 +372,14 @@ e_goal8.style.left = '1px';
 //a_goal4.style.backgroundColor = "white";
 e_goal8.style.color = "purple";
 e_goal8.style.width = '230px';
-e_goal8.style.display = "none"
+//e_goal8.style.display = "none"
 
 var b_dropdown2 = document.createElement("BUTTON");
-b_dropdown2.innerText="click me to expand";
+b_dropdown2.innerText="click me to collapse";
 //a_backtohome.innerText.style.border = '5px solid red';
 document.body.appendChild(b_dropdown2);
 b_dropdown2.style.position = "absolute";
-b_dropdown2.style.top = '638px';
+b_dropdown2.style.top = '540px';
 b_dropdown2.style.left = '30px';
 //a_goal4.style.color = "black";
 //a_goal4.style.backgroundColor = "white";
@@ -486,54 +494,43 @@ b_dropdown2.style.left = '30px';
 
 
 document.addEventListener("click", function(){
-  //if(document.getElementsByClassName("nickelled__step__title nickelled__component__title")[0].innerHTML == "You are now on the page where health topics start with letter D"){
-  if(document.getElementsByClassName("nickelled__step__title nickelled__component__title")[0].innerHTML == "After you click with letter D, this brings up with a list of health topics start with letter D"){
-  //var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/You are now on the page where health topics start with letter D.mp3');
-  //audio.autoplay = true;
-  //audio.load();
-  audio2.pause();
-  //audio1.pause();
-  //open.load();
-  //open.play();
-  audio1.load();
-  audio1.play();
-  //open.pause();
-  //audio2.pause();
-  //audio1.load();
-  //audio1.play();
-  document.getElementsByTagName("h1")[0].style.border = "5px solid red";
-  document.getElementById("anch_80").style.border = "5px solid red";}
-  else if (document.getElementsByClassName("nickelled__step__title nickelled__component__title")[0].innerHTML == "Third, scroll down to the bottom until you find diabetes and click on the link"){
-  //var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/third.mp3');
-  //audio.autoplay = true;
-  //audio.load();
-  //open.pause();
-  //open.pause();
+	//alert(document.getElementsByClassName("nickelled__step__title nickelled__component__title")[0].innerHTML);
+  if(document.getElementsByClassName("nickelled__slide__title nickelled__component__title")[0].innerHTML == "Sponsorship:"){
   audio1.pause();
-  audio3.pause();
-  audio2.load();
-  audio2.play();
-  document.getElementsByTagName("h1")[0].style.border = "5px solid white";
-  document.getElementById("anch_80").style.border = "5px solid red";}
-  else if (document.getElementsByClassName("nickelled__step__title nickelled__component__title")[0].innerHTML == "Click it, then you will find Diabetes page with the information you want"){
-  //var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/clickit.mp3');
+  open.load();
+  open.play();
+  //var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/main feature.mp3');
   //audio.autoplay = true;
   //audio.load();
-  audio2.pause();
-  //audio4.pause();
-  audio3.load();
-  audio3.play();
-
-  document.getElementsByTagName("h1")[0].style.border = "5px solid white";
-  document.getElementById("anch_80").style.border = "5px solid red";}
+}
+  /*else if(document.getElementsByClassName("nickelled__slide__title nickelled__component__title")[0].innerHTML == "Terms Review"){
+  var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/term review.mp3');
+  audio.autoplay = true;
+  audio.load();}
+  else if(document.getElementsByClassName("nickelled__slide__title nickelled__component__title")[0].innerHTML == "Text box"){
+  var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/text box.mp3');
+  audio.autoplay = true;
+  audio.load();}*/
+  
 }, false);
 
 
-/*document.addEventListener("click", function(){
-  if(document.getElementsByClassName("nickelled__slide__title nickelled__component__title")[0].innerHTML == "Practice: click on letter D"){
-  var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/practice_healthtopics.mp3');
-  audio.autoplay = true;
-  audio.load();}
-}, false);*/
+
+
+document.addEventListener("click", function(){
+	//alert(document.getElementsByClassName("nickelled__step__title nickelled__component__title")[0].innerHTML);
+  if(document.getElementsByClassName("nickelled__step__title nickelled__component__title")[0].innerHTML == "To identify the sponsor of MedlinePlus, click the About MedlinePlus link at the top of the screen."){
+  //var audio = new Audio('http://home.ustc.edu.cn/~wyc0807/cate.mp3');
+  //audio.autoplay = true;
+  //audio.load();
+  open.pause();
+  audio2.pause();
+  audio1.load();
+  audio1.play();
+  document.getElementById("anch_9").style.border = "5px solid red";}
+  
+}, false);
+
+
 
 

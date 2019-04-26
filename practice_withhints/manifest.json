@@ -198,7 +198,151 @@
   {
     "js": ["content_ginkgo2.js"],
     "matches": ["https://nccih.nih.gov/health/ginkgo/ataglance.htm"]
+  },
+
+  {
+    "js": ["content_herbs_and_supplements.js"],
+    "matches": ["https://ontop.nickelled.com/herbs-and-supplements?ngroup=link"]
+  },
+
+  {
+    "js": ["content_herbs_and_supplements2.js"],
+    "matches": ["https://ontop.nickelled.com/herbs-and-supplements?npage=2&ngroup=link"]
+  },
+
+  {
+    "js": ["content_herbs_and_supplements3.js"],
+    "matches": ["https://ontop.nickelled.com/herbs-and-supplements?npage=3&ngroup=link"]
+  },
+  {
+    "js": ["content_herbs_and_supplements4.js"],
+    "matches": ["https://ontop.nickelled.com/herbs-and-supplements?npage=4&ngroup=link"]
+  },
+
+  {
+    "js": ["content_healthy_recipes.js"],
+    "matches": ["https://ontop.nickelled.com/healthy-recipes?ngroup=link"]
+  },
+
+  {
+    "js": ["content_healthy_recipes1.js"],
+    "matches": ["https://ontop.nickelled.com/healthy-recipes?npage=2&ngroup=link"]
+  },
+
+  {
+    "js": ["content_healthy_providers.js"],
+    "matches": ["https://ontop.nickelled.com/healthy-providers?ngroup=link"]
+  },
+  {
+    "js": ["content_healthy_providers1.js"],
+    "matches": ["https://ontop.nickelled.com/healthy-providers?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_healthy_providers2.js"],
+    "matches": ["https://ontop.nickelled.com/healthy-providers?npage=3&ngroup=link"]
+  },
+  {
+    "js": ["content_healthy_providers3.js"],
+    "matches": ["https://ontop.nickelled.com/healthy-providers?npage=4&ngroup=link"]
+  },
+  {
+    "js": ["content_healthy_providers4.js"],
+    "matches": ["https://ontop.nickelled.com/healthy-providers?npage=5&ngroup=link"]
+  },
+  {
+    "js": ["content_videos.js"],
+    "matches": ["https://ontop.nickelled.com/videos-and-tools?ngroup=link"]
+  },
+  {
+    "js": ["content_videos2.js"],
+    "matches": ["https://ontop.nickelled.com/videos-and-tools?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_videos3.js"],
+    "matches": ["https://ontop.nickelled.com/videos-and-tools?npage=3&ngroup=link"]
+  },
+  {
+    "js": ["content_sponsorship.js"],
+    "matches": ["https://ontop.nickelled.com/sponsorship?ngroup=link"]
+  },
+  {
+    "js": ["content_sponsorship1.js"],
+    "matches": ["https://ontop.nickelled.com/sponsorship?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_purpose.js"],
+    "matches": ["https://ontop.nickelled.com/purpose?ngroup=link"]
+  },
+  {
+    "js": ["content_purpose1.js"],
+    "matches": ["https://ontop.nickelled.com/purpose?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_reviewers.js"],
+    "matches": ["https://ontop.nickelled.com/reviewers?ngroup=link"]
+  },
+  {
+    "js": ["content_reviewers1.js"],
+    "matches": ["https://ontop.nickelled.com/reviewers?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_authorship.js"],
+    "matches": ["https://ontop.nickelled.com/authorship?ngroup=link"]
+  },
+  {
+    "js": ["content_authorship1.js"],
+    "matches": ["https://ontop.nickelled.com/authorship?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_authorship2.js"],
+    "matches": ["https://ontop.nickelled.com/authorship?npage=3&ngroup=link"]
+  },
+  {
+    "js": ["content_authorship3.js"],
+    "matches": ["https://ontop.nickelled.com/authorship?npage=4&ngroup=link"]
+  },
+  {
+    "js": ["content_updates.js"],
+    "matches": ["https://ontop.nickelled.com/updates?ngroup=link"]
+  },
+  {
+    "js": ["content_accuracy.js"],
+    "matches": ["https://ontop.nickelled.com/accuracy?ngroup=link"]
+  },
+  {
+    "js": ["content_accuracy1.js"],
+    "matches": ["https://ontop.nickelled.com/accuracy?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_privacy.js"],
+    "matches": ["https://ontop.nickelled.com/privacy-policy?ngroup=link"]
+  },
+  {
+    "js": ["content_privacy1.js"],
+    "matches": ["https://ontop.nickelled.com/privacy-policy?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_contact.js"],
+    "matches": ["https://ontop.nickelled.com/contact-information?ngroup=link"]
+  },
+  {
+    "js": ["content_contact1.js"],
+    "matches": ["https://ontop.nickelled.com/contact-information?npage=2&ngroup=link"]
+  },
+  {
+    "js": ["content_contact2.js"],
+    "matches": ["https://ontop.nickelled.com/contact-information?npage=3&ngroup=link"]
+  },
+  {
+    "js": ["content_contact3.js"],
+    "matches": ["https://ontop.nickelled.com/contact-information?npage=4&ngroup=link"]
+  },
+  {
+    "js": ["content_contact4.js"],
+    "matches": ["https://ontop.nickelled.com/contact-information?npage=5&ngroup=link"]
   }
+
+
 
 ]
  
